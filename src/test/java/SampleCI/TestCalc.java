@@ -11,4 +11,9 @@ public class TestCalc {
         Assertions.assertEquals(5, new Calc().add(2, 3));
     }
 
+    @Test
+    void testSubSuccessTest(){
+        Assertions.assertEquals(1, new Calc().subtract(3,2));
+    }
+
 }
